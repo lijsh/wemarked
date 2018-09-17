@@ -76,7 +76,7 @@
 }
 
 .mpvue-markdown-img {
-  width: 100%;
+  max-width: 100%;
   box-sizing: content-box;
   background-color: #fff;
   border-style: none;
