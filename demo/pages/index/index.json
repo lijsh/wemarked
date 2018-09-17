@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wemarked": "../../components/wemarked/index"
+  }
+}

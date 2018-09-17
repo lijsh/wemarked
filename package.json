@@ -1,0 +1,24 @@
+{
+  "name": "wemarked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp"
+  },
+  "keywords": [],
+  "author": "lijsh <sysulijs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mpvue-markdown-parser": "^1.0.5"
+  },
+  "miniprogram": "dist",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "gulp": "^3.9.1",
+    "webpack": "^4.19.0",
+    "webpack-stream": "^5.1.1"
+  }
+}
