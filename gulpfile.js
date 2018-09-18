@@ -1,7 +1,8 @@
 const gulp = require('gulp')
 const webpackStream = require('webpack-stream')
 const pkg = require('./package.json')
-const dist = process.env.NODE_ENV === 'production' ? 'dist' : `demo/components/${pkg.name}`
+const name = pkg.name
+const dist = process.env.NODE_ENV === 'production' ? name : `demo/components/${name}`
 const miniprogram = pkg.miniprogram
 
 gulp.task('webpack', _ =>
