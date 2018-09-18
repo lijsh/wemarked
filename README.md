@@ -36,7 +36,7 @@
 ```
 
 ## 使用方法
-``` html
+```
 <!--index.wxml-->
 <view class="container">
   <wemarked md="{{'# This is A **Heading**\\n#### This is Another *Heading*'}}"/>
