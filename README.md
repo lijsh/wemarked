@@ -7,7 +7,7 @@
 - 支持直接 copy 使用或 npm 调用（需借助开发者工具的 npm 构建功能）；
 - 支持语法高亮
 
-## cros
+## cons
 - 使用 `rich-text` 实现，无法更精细地响应事件；
 - 暂时没有太多自定义选项；
 - mpvue 建议直接使用 [mpvue-markdown-parser](https://github.com/dwqs/mpvue-markdown-parser)
