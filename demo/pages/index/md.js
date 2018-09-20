@@ -1,4 +1,16 @@
 module.exports = `
+### Solar System Exploration, 1950s – 1960s
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
 ![npm-version](https://img.shields.io/npm/v/mpvue-markdown-parser.svg) ![license](https://img.shields.io/npm/l/mpvue-markdown-parser.svg)
 
 ## mpvue-markdown-parser
