@@ -4,16 +4,16 @@
 ## pros
 - 原生自定义组件，适用于无框架开发的情景；
 - markdown 解析使用 `marked`，非常轻量；
-- 支持直接 copy 使用或 npm 调用（需借助开发者工具的 npm 构建功能）；
+- 支持直接 copy 使用或 npm 调用（需借助开发者工具的 npm 构建功能）；
 - 支持语法高亮
 
-## cros
-- 使用 `rich-text` 实现，无法更精细地响应事件；
+## cons
+- 使用 `rich-text` 实现，无法更精细地响应事件；
 - 暂时没有太多自定义选项；
 - mpvue 建议直接使用 [mpvue-markdown-parser](https://github.com/dwqs/mpvue-markdown-parser)
 
 ## 引用方法（直接拷贝）
-1. 下载这个仓库的代码到本地，然后将 `wemarked` 目录 copy 到小程序自定义组件对应目录下；
+1. 下载这个仓库的代码到本地，然后将 `wemarked` 目录 copy 到小程序自定义组件对应目录下；
 2. 在需要引用 `wemarked` 的页面对应的 json 声明配置：
 ```
 {
@@ -36,7 +36,7 @@
 ```
 
 ## 使用方法
-``` html
+```
 <!--index.wxml-->
 <view class="container">
   <wemarked md="{{'# This is A **Heading**\\n#### This is Another *Heading*'}}"/>
